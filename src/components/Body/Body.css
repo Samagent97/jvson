@@ -1,0 +1,66 @@
+.tim{
+    padding-left: 200px;
+    padding-top: 90px;
+    font-size: x-large;
+    overflow: hidden;
+ 
+
+
+}
+
+.t1{
+    color: #A795FC;
+    text-decoration: solid;
+
+}
+
+.t2{
+    color: #A795FC;
+    animation-name: distortion;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation: thanos-effect-animation 4s ease-in-out infinite;
+   
+    
+}
+
+/* @keyframes distortion {
+    0% {
+      transform: scale(1);
+      filter: blur(0);
+    }
+    50% {
+      transform: scale(1.1);
+      filter: blur(2px);
+    }
+    100% {
+      transform: scale(0.9);
+      filter: blur(4px);
+    }
+  } */
+
+.b1{
+    background-color: #D9D9D9;
+    color: #CF9DF3;
+    border-radius: 20px;
+    font-size: 30px;
+}
+
+@keyframes thanos-effect-animation {
+  0% {
+    transform: scale(1);
+    filter: blur(0);
+  }
+  20% {
+    transform: scale(0.5);
+    filter: blur(0);
+  }
+  50% {
+    transform: scale(1.1);
+    filter: blur(2px);
+  }
+  100% {
+    transform: scale(0.9);
+    filter: blur(4px);
+  }
+}
