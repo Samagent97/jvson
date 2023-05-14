@@ -1,0 +1,38 @@
+
+  
+{
+    "images": [
+      {
+        "id": 1,
+        "src": "/src/assets/Component 29 (1).svg",
+        "alt": "Image 1"
+      },
+      {
+        "id": 2,
+        "src":  "/src/assets/image 10 (2).svg",
+        "alt": "Image 2"
+      },
+      {
+        "id": 3,
+        "src": "/src/assets/image 10 (1).svg",
+        "alt": "Image 3"
+      },
+      {
+        "id": 4,
+        "src": "/src/assets/image 10 (3).svg",
+        "alt": "Image 4"
+      },
+      {
+        "id": 5,
+        "src": "/src/assets/image 10 (4).svg",
+        "alt": "Image 5"
+      },
+      {
+        "id": 6,
+        "src": "/src/assets/image 8.svg",
+        "alt": "Image 6"
+      }
+
+    ]
+  }
+  
