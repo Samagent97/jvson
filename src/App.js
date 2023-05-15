@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 function App() {
   return (
-    <div className="container" >
+    <div>
       <Navbar />
       <Home />
     </div>
