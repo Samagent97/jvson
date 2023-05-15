@@ -1,23 +1,10 @@
 import React from "react";
-import Body from "./components/Body/Body";
-import Navbar from "./components/Navbar/Navbar";
-import  "./App.css"
-import Body2 from "./components/body2/Body2";
-
-
-
-
+import "./App.css";
+import Navbar from "./components/Navbar";
 function App() {
   return (
-    <div>
-      <div className="background">
+    <div className="container" >
       <Navbar />
-      <Body />
-      
-      <Body2/>
-      
-      </div>
-     
     </div>
   );
 }

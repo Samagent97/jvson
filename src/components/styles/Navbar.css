@@ -1,0 +1,26 @@
+.navbar{
+    display:flex;
+    align-items: center;
+    padding: 15px 0;
+}
+.navbarLogo{
+    width: 30%;
+}
+
+.navbarLogoImg{
+    height: 20px;
+}
+
+.navbarLinks{
+   width: 70%;
+}
+.navbarLinks ul {
+    list-style-type: none;
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    gap: 30px;
+}
+
+.navbarLinks li{
+    font-size: 1.3rem;
+}
