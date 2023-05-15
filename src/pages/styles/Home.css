@@ -1,0 +1,152 @@
+.home{
+    padding: 20px 0;
+}
+.homeSectionFirst{
+    display: flex;
+    justify-content: space-between;
+
+}
+.homeSectionIntro{
+    width: 55%;
+}
+.homeSectionChatBot .chatbotImg{
+    height: 600px;
+}
+.btn{
+    outline: none;
+    border: 1px solid #6154A4;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 18px;
+    padding: 10px 10px;
+    font-size: 1rem;
+    
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.ejoy{
+    background-color: #6154A4;
+    color: #FFFFFF;
+    font-weight: 600px;
+}
+
+.homeSectionIntro h1{
+    font-family: 'Syne', sans-serif;
+    font-weight: 500;
+    font-size: 55px;
+    color: #000000;
+    letter-spacing: 0.01em;
+    margin: 15px 0;
+}
+
+.homeSectionIntro h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: 0.01em;
+    color: #2b2b2ba3;
+    opacity: 0.8;
+    width: 80%;
+}
+.homeJoinUs{
+    display: flex;
+    gap: 20px;
+    font-family: 'Inter', sans-serif;
+}
+.homeJoinUsImgs{
+    display: flex;
+    align-items: center;
+}
+.homeJoinUsImgs img{
+    width: 50px;
+    height: 50px;
+    border: 3px solid #FFFFFF;
+    border-radius: 50%;
+}
+.homeJoinHide{
+    margin-left: -30px;
+}
+.homejoinText{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #6154A4;
+    color: white;
+    border: 3px solid #FFFFFF;
+    margin-left: -30px;
+    
+}
+.homeJoinUsText{
+    font-size: 20px;
+}
+.homeCodeMapping {
+    position: relative;
+}
+.homeCodeMapping .arrow1Img{
+    width: 100%;
+    /* position: absolute; */
+    margin-left: 50%;
+    margin-top: -20%;
+    
+}
+.homeCodeMapping .arrow2Img{
+    width: 60%;
+    position: absolute;
+    right: -110px;
+}
+.homeCodeMapping .codeblock{
+    width: 70%;
+    margin: 40px 0;
+}
+.homeSectionFeatures{
+    padding: 20px 0;
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+    margin-top: 20px;
+}
+.homeSectionFeaturesHeader h1{
+    color: #6154A4;
+    font-family: 'Syne', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    font-size: 1.8rem
+}
+
+.homeSectionFeaturesText p{
+    color:#555555;
+    font-family: 'Inter', sans-serif;
+    text-align:justify;
+}
+
+.homeSectionFocus{
+    border: 2px solid #6154A4;
+    border-radius: 18px;
+    padding: 50px;
+    padding-bottom: 100px;
+}
+.homeSectionFocusHeader,.homeSectionFocusText{
+    width: 55%;
+}
+.homeSectionFocusHeader h1{
+    font-family: 'Syne', sans-serif;
+    color: #000000;
+    font-weight: 500;
+    font-size: 35px;
+    margin: 0;
+}
+.homeSectionFocusText p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: #555555;
+}
+
+
