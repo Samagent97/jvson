@@ -1,26 +1,29 @@
 .navbar{
     display:flex;
-    align-items: center;
-    padding: 20px 0;
-}
-.navbarLogo{
-    width: 30%;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 10px 0;
 }
 
 .navbarLogoImg{
-    height: 20px;
+    width: 150px;
 }
 
 .navbarLinks{
-   width: 70%;
+    background-color: #2828282d;
+    border-radius: 50px;
+    padding: 0 10px;
 }
 .navbarLinks ul {
     list-style-type: none;
     display: flex;
-    font-family: 'Inter', sans-serif;
-    gap: 30px;
+    font-family: 'Syne', sans-serif;
+    gap: 20px;
+    padding: 10px 20px;
+    margin: 0;
+
 }
 
 .navbarLinks li{
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
